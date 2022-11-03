@@ -1,6 +1,6 @@
 # Yolov5 deploy for aquarium dataset 
 
-<img src="result.jpg" alt="Alt text" title="Detection Result">
+<img src="./result.jpg" alt="Alt text" title="Detection Result">
 ## Table of Contents
 
 - [About](#about)
