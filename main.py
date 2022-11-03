@@ -8,13 +8,14 @@ import shutil
 import json
 from fastapi.middleware.cors import CORSMiddleware
 
-
+MESSAGE = "fish, jellyfish, penguins, sharks, puffins, stingrays, and starfish"
 model = get_yolov5()
 
 app = FastAPI(
-    title="Custom YOLOV5 Machine Learning API",
-    description="""Obtain object value out of image
-                    and return image and json result""",
+    title="Custom YOLOV5 API", 
+    description=f"""Obtain object value out of image using YOLOV5.
+                    and return image and json result \n
+                    trained on {MESSAGE}""",
     version="0.0.1",
 )
 
@@ -32,6 +33,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+async def index():
+    return {"Classes trained": "fish, jellyfish, penguins, sharks, puffins, stingrays, and starfish"}
 
 @app.get('/notify/v1/health')
 def get_health():
