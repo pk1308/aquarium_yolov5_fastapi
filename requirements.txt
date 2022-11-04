@@ -1,7 +1,5 @@
 
 fastapi
-yaml
-ipython
 uvicorn
 python-multipart
 pillow
@@ -13,5 +11,3 @@ pandas
 gdown
 opencv-python-headless
 requests
-torch==1.12.1 
-torchvision 
