@@ -11,3 +11,5 @@ pandas
 gdown
 opencv-python-headless
 requests
+Ipython 
+Pyaml
