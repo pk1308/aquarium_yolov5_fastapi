@@ -14,7 +14,7 @@ trained on fish, jellyfish, penguins, sharks, puffins, stingrays, and starfish
 
 ## Getting Started <a name = "getting_started"></a>
 
-[APP_LINK](http://184.72.71.183/docs)
+[APP_LINK](http://ec2-54-152-8-85.compute-1.amazonaws.com/docs)
 
 [deployment](#deployment) for notes on how to deploy the project on a live system.
 
